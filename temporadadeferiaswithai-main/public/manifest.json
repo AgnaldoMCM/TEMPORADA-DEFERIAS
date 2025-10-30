@@ -1,0 +1,21 @@
+{
+  "name": "Temporada de Férias",
+  "short_name": "TF2K26",
+  "description": "Inscrição para o retiro da igreja 'Temporada de Férias'",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#4D8C57",
+  "icons": [
+    {
+      "src": "upa.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "upa.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
