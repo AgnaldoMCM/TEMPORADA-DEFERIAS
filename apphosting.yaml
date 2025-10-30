@@ -1,0 +1,19 @@
+# Settings to manage and configure a Firebase App Hosting backend.
+# https://firebase.google.com/docs/app-hosting/configure
+
+runConfig:
+  # Increase this value if you'd like to automatically spin up
+  # more instances in response to increased traffic.
+  maxInstances: 1
+  # Add environment variables from Secret Manager.
+  # These are automatically made available to your app at runtime.
+  # https://firebase.google.com/docs/app-hosting/configure#environment-variables
+  secrets:
+    - secret: GOOGLE_SHEETS_DOCUMENT_ID
+      # The environment variable GOOGLE_SHEETS_DOCUMENT_ID will be available to your app.
+    - secret: GOOGLE_SHEETS_SERVICE_ACCOUNT_EMAIL
+      # The environment variable GOOGLE_SHEETS_SERVICE_ACCOUNT_EMAIL will be available to your app.
+    - secret: GOOGLE_SHEETS_PRIVATE_KEY
+      # The environment variable GOOGLE_SHEETS_PRIVATE_KEY will be available to your app.
+
+# Trigger commit
